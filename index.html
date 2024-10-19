@@ -1,0 +1,362 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дизайн-студия An_Lian</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="icon" href="icons8-ромб-48.png">
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+ h2 {
+    text-align: center;
+}
+
+ p {
+    font-size: 18px;
+    text-align: center;
+}  
+.header {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("723aec5c253f59638def837a3e489e0e.jpg");
+  color: #fff;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  text-decoration: none;
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-links {
+  text-align: right;
+  background: #ad0085;
+  padding: 10px 30px;
+  border-bottom-left-radius: 18px;
+  /* margin-right: 115px; */
+    margin-top: 19px;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.left-sidebar {
+  width: 20%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #ff1616;
+}
+
+.row {
+  padding: 0 10%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  position: relative;
+  margin-top: 5%;
+}
+
+.left-col {
+  flex-basis: 40%;
+}
+
+.right-col {
+  flex-basis: 55%;
+}
+
+.left-col img {
+  width: 80%;
+  cursor: pointer;
+  filter: grayscale(0);
+  transition: filter 1s;
+}
+
+.left-col img:hover {
+  filter: grayscale(1);
+}
+
+.right-col h1 {
+  font-style: 55px;
+  font-weight: 600;
+}
+
+.right-col p {
+  color: #ffffff;
+  margin: 20px 0 70px;
+}
+
+.social-media {
+  display: flex;
+  margin-top: 30px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  background: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.icon i {
+  width: 28px;
+}
+
+.icon a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ff1616;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.inter {
+            width: 768px;
+            height: 546px;
+            display: block;
+            margin-bottom: 60px;
+            margin-top: 60px;
+           
+        }
+       
+        /* * {
+            margin: 0;
+            box-sizing: border-box;
+        } */
+
+        area {
+            cursor: url(pointer_5987590.png), auto;
+        }
+
+        body {
+          cursor: url(ship_8038901.png), auto;
+        }
+        section {
+            width: 968px;
+            margin: 0 auto;
+        }
+
+    
+      .inter {
+            width: 704px;
+            height: 383px;
+            display: block;
+            margin-bottom: 60px;
+            margin-top: 60px;
+            cursor: url(hand-cursor_5987538.png), auto;
+        }
+        *{margin: 0px; padding: 0px}
+
+body{
+  background:#002041;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, button{
+  color:#fff;
+  text-align: center;
+  padding: 20px;
+}
+
+p{
+  color:#fff;
+  text-align: center;
+  /* padding-top: 500px; */
+  /* font-size: 10px; */
+}
+
+a{
+   text-decoration:none;
+   color:#fff;
+}
+
+a:hover{
+   color:#2ecc71;
+}
+
+.main{
+  width: 100%;
+}
+
+.sub-main{
+  width: 30%;
+  margin:22px;
+  float: left;
+}
+
+.button-one, .button-two, .button-three{
+  text-align: center;
+  cursor: pointer;
+  font-size:24px;
+  margin: 0 0 0 100px;
+}
+
+
+
+
+
+/*Button Two*/
+.button-two {
+  border-radius: 4px;
+  background-color:#d35400;
+  border: none;
+  padding: 20px;
+  width: 400px;
+  transition: all 0.5s;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+      
+      
+</style>
+</head>
+
+<body>
+    <div class="header">
+        <nav>
+          <a href="" class="logo">An_Lian</a>
+          <div class="nav-links">
+            <ul>
+              <li><a href="https://anlian13.github.io/obo_mne/">Об авторе</a></li>
+              <!-- <li><a href="">Service</a></li>
+              <li><a href="">Portfolio</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Connect</a></li> -->
+            </ul>
+          </div>
+        </nav>
+
+        <div class="right-col">
+            <br>
+            <br>
+            <br>
+            <br>
+            <h1>
+            Приветствую! <br />
+              Моё имя - Анастасия <br />
+              Я являюсь графическим дизайнером,
+              <br>  frontend-разработчиком
+              <br> и хочу пригласить вас <br /> 
+              ознакомиться с услугами, <br /> которые я оказываю <br> на своей дизайн-студии
+            </h1>
+            <p>
+                Нужен сайт или оригинальный дизайн  <br> с любимыми персонажами, и не только? 
+                <br>
+                Вы обратились по адресу!
+            </p>
+<h2>Я создаю:</h2>
+<br>
+  <section class="inter">
+    <img class="main-picture" src="Desktop - 1.png" alt="flowers_foto" style="margin:0px auto 0px auto; display:block" usemap="#imgmap202435174137">
+    <map name="imgmap202435174137">
+      <map id="imgmap202410191645" name="imgmap202410191645">
+        <area shape="rect" alt="" title="Электронные календари, распечатать которые вы сможете в типографиях своего города" coords="1,6,254,255" href="" target="" />
+        <area shape="rect" alt="" title="Электронную игру Пятнашки" coords="259,2,488,255" href="" target="" />
+        <area shape="rect" alt="" title="Электронную игру Найди пару с любыми персонажами" coords="489,1,766,322" href="" target="" />
+        <area shape="rect" alt="" title="Квадратные мыльные пузыри" coords="485,321,767,544" href="" target="" />
+        <area shape="rect" alt="" title="Колоду Таро с любыми персонажами" coords="1,254,488,545" href="" target="" /><!-- Created by Online Image Map Editor (http://www.maschek.hu/imagemap/index) --></map>
+    </map>
+        </div>
+        </map> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4>Наведите курсор на изображение, чтобы узнать больше. Если вы открыли сайт с телефона, нужно просто кликнуть на изображение</h4>
+  </section>
+  <br>
+  
+<h3>Перейти на мою дизайн-студию и узнать больше вы сможете, кликнув по кнопке ниже</h3>
+<div class="sub-main">
+  <button class="button-two">
+    <a href="https://makinganorder.tilda.ws/">
+    <span>Перейти на дизайн-студию</span></a></button>
+</div>
+
+
+
+</body>
+</html>
